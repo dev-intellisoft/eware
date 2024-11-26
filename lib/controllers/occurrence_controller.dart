@@ -1,7 +1,6 @@
 import 'package:hive/hive.dart';
 import 'package:mobx/mobx.dart';
 import 'package:weather_app_modular/models/occurrence_model.dart';
-import 'package:weather_app_modular/models/occurrences.dart';
 part 'occurrence_controller.g.dart';
 
 class OccurrenceController = OccurrenceControllerBase with _$OccurrenceController;
